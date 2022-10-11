@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "jpl-banner",
+    "libraryId": "53ba4bd3-5e9f-4b2a-b0e1-c73b420e1e0c",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

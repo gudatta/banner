@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 54321,
+  "https": false,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "http://spdatta2019.eastus.cloudapp.azure.com/sites/dev/SitePages/banner.aspx",
+      "customActions": {
+        "40c8230a-995b-4ee8-9802-a909beb20c48": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "fileUrl": "shared%20documents/banner.json",
+            "webUrl": "/sites/dev"
+          }
+        }
+      }
+    },
+    "banner": {
+      "pageUrl": "http://spdatta2019.eastus.cloudapp.azure.com/sites/dev/SitePages/banner.aspx",
+      "customActions": {
+        "40c8230a-995b-4ee8-9802-a909beb20c48": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "fileUrl": "shared%20documents/banner.json",
+            "webUrl": "/sites/dev"
+          }
+        }
+      }
+    }
+  }
+}

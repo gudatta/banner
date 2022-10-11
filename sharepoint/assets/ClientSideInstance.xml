@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Banner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="40c8230a-995b-4ee8-9802-a909beb20c48"
+        Properties="{&quot;configUrl&quot;:&quot;/sites/dev/siteassets/banner.json&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

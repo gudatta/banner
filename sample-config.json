@@ -1,0 +1,6 @@
+{
+    "/sites/dev": {
+        "color": "red",
+        "html": "<b>Highly Classified</b> This site has important stuff on it"
+    }
+}
