@@ -13,10 +13,10 @@ export interface ISiteConfiguration {
  */
 export class Configuration {
     private static _config: { [key: string]: ISiteConfiguration } = null;
-    static get Sites(): { [key: string]: ISiteConfiguration } { return this._config; }
+    public static get Sites(): { [key: string]: ISiteConfiguration } { return this._config; }
 
     // Loads the configuration file
-    static load(webUrl: string, fileUrl: string) {
+    public static load(webUrl: string, fileUrl: string) {
         // Return a promise
         return new Promise((resolve) => {
             // See if the cache has the information
@@ -72,6 +72,9 @@ export class Configuration {
 
                 // Error
                 err => {
+                    // Default the configuration
+                    this._config = {};
+
                     // Log
                     Log.info(strings.LOG_KEY, "Configuration file not found.");
 
